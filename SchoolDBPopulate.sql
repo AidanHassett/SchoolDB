@@ -34,3 +34,22 @@ INSERT INTO class (teacher, classSubject, timePeriod, dayOfWeek, room) VALUES
     (2, 'Computer Science', 4, 1, 'C1'),
     (3, 'Drama', 4, 1, 'Main Hall'),
     (4, 'Physics', 1, 2, 'Lab 1');
+    
+INSERT INTO enrolment (studentID, classID) VALUES
+	(1, 1),
+    (2, 1),
+    (3, 1)
+    (4, 1)
+    (5, 1)
+    (1, 2), 
+    (3, 2),
+    (4, 2),
+    (5, 2),
+    (1, 4)
+    (4, 4)
+    (2, 3)
+    (3, 3)
+    (5, 3)
+    (2, 5)
+    (3, 5)
+    (4, 5);
